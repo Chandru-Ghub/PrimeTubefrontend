@@ -28,11 +28,11 @@
         /* background-color: green; */
         width: 100%;
         display: flex;
-        /* gap: 10px; */
+        column-gap: 10px;
         flex-direction: column;
         justify-content: start;
         >li{
-            /* background-color: blue; */
+            background-color: blue;
             text-align: start;
             display: flex;
             align-items: center;
