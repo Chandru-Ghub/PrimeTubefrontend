@@ -32,7 +32,7 @@
         flex-direction: column;
         justify-content: start;
         >li{
-            background-color: blue;
+            /* background-color: blue; */
             text-align: start;
             display: flex;
             align-items: center;
@@ -43,11 +43,11 @@
             margin-bottom: 15px;
             >.l{
                 margin-right: 15px;
-               background-color: green;
+               /* background-color: green; */
                padding-top: 5px;
             }
             >.pp{
-                background-color: red;
+                /* background-color: red; */
                 padding-bottom: 5px;
                 margin-top: -5px;
             }
