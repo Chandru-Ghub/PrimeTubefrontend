@@ -36,19 +36,23 @@
             text-align: start;
             display: flex;
             align-items: center;
-            column-gap: 15px;
+            /* column-gap: 15px; */
             font-size: 15px;
             cursor: pointer;
             padding: 5px;
             margin-bottom: 15px;
             >span{
-                /* background-color: black; */
+                margin-right: 15px;
+            }
+            >p{
+                background-color: red;
             }
         }
         >li:hover{
            background-color: rgba(126, 123, 123, 0.373);
           
         }
+       
 
     }
 }
