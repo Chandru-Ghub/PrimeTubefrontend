@@ -1,0 +1,117 @@
+.sidebar{
+    /* background-color: rgb(84, 40, 40); */
+    display: flex;
+    flex: 1;
+    /* width: 180px; */
+    /* height: 92vh; */
+
+    
+    
+}
+.sidetop{
+    /* background-color: red; */
+    display: flex;
+    row-gap: 20px;
+    justify-content: start;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+     /* overflow-y: scroll;
+     color: rgb(0, 0, 0);
+    position: sticky;
+    top: 62px;
+    z-index: -1;
+    height: 100vh; */
+
+
+    >.topmenu{
+        /* background-color: green; */
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: start;
+        >li{
+            /* background-color: blue; */
+            text-align: start;
+            display: flex;
+            align-items: center;
+            column-gap: 15px;
+            font-size: 15px;
+            cursor: pointer;
+            padding: 5px;
+            >span{
+                /* background-color: black; */
+            }
+        }
+        >li:hover{
+           background-color: rgba(126, 123, 123, 0.373);
+          
+        }
+
+    }
+}
+.sideline{
+    /* background: red;
+    height: 10px; */
+    /* background-color: red; */
+    /* border: 0.5px solid #dddbdb; */
+    width: 100%;
+}
+.signside{
+    /* background-color: red; */
+    font-size: 13px;
+    >p{
+
+    }
+    >button{
+        margin-top: 10px;
+        padding: 5px 10px;
+        background-color: transparent;
+        border: 2px solid blue;
+        border-radius: 6px;
+        color: blue;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.scrollbar{
+    /* width: 220px; */
+    /* background-color: red; */
+    height:92vh;
+    overflow-y: scroll;
+    /* background-color: green; */
+    /* position: fixed; */
+    position: sticky;
+    top: 60px;
+    width: 100%;
+    /* z-index: -1; */
+
+    
+}
+.theme{
+    /* background: red; */
+}
+.hidebar{
+    position: fixed;
+    left: -800px;
+   
+}
+
+@media only screen and (max-width:1200px){
+    
+    /* .sidetop{
+       background-color: red;
+    } */
+    .sidebar{
+        position: fixed;
+        left: -800px;
+      
+    }
+    .hidebar{
+        position: fixed;
+        left: 0px;
+        width: 200px;
+    }
+}

@@ -1,0 +1,106 @@
+.main{
+    /* background-color: blue; */
+    padding: 10px;
+    /* width: 80%; */
+    display: flex;
+    flex: 6;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.con{
+    width: 200px;
+    background-color: red;
+    height: 300px;
+    overflow: scroll;
+    
+}
+
+/* card style */
+
+.cards{
+
+    width: 280px;
+    /* min-width: 250px; */
+    height:auto;
+    /* background-color: rgb(235, 197, 197); */
+    
+    /* border: 1px solid rgb(205, 201, 201); */
+
+}
+
+.topcard{
+
+    /* background-color: red; */
+    /* width: 100%; */
+    /* height: 160px; */
+    >img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.videodesc{
+    /* background-color: green; */
+    display: flex;
+    padding: 15px 5px;
+    /* padding: 10px; */
+    /* column-gap: 20px; */
+    
+    >.channelogo{
+        
+        
+        /* background-color: rgb(34, 34, 193); */
+        >div{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            /* background-color: rgb(59, 15, 15); */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+
+            >img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            
+            }
+        }
+
+       
+    }
+
+    >.videotitle{
+        /* background-color: red; */
+        width: 100%;
+        padding-left: 10px;
+        text-align: start;
+        
+
+        /* background-color: white; */
+        >.videoname{
+           font-size: 15px;
+           font-weight: 500;
+           margin-bottom: 2px;
+        
+        }
+        >.channelname{
+            color: grey;
+            font-size: 13px;
+        }
+
+        >.viewanddate{
+            color: grey;
+            display: flex;
+            margin-top: 2px;
+            column-gap: 10px;
+            font-size: 13px;
+        }
+    }
+}
+
+
+
