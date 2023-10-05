@@ -17,19 +17,19 @@ const Sidebar = ({setTheme,theme,menu}) => {
         <div className="sidetop">
             <ul className="topmenu">
                 <li onClick={()=>navigate('/')}>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined l">
                         home
-                    </span>Home
+                    </span><span className='pp'>Home</span>
                 </li>
                 <li onClick={()=>navigate('/trends')}>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined l">
                     explore
-                    </span>explore
+                    </span><span className='pp'>explore</span>
                 </li>
                 <li onClick={()=>navigate('/subscription')}>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined l">
                     subscriptions
-                    </span>subscriptions
+                    </span><span className='pp'>subscriptions</span>
                 </li>
         
                 <>
@@ -42,8 +42,8 @@ const Sidebar = ({setTheme,theme,menu}) => {
                       Sign in to like ,comment and subscribe
                       </p>
                         <button className='btnsignin'>
-                        <span class="material-symbols-outlined">
-                    <span class="material-symbols-outlined">
+                        <span class="material-symbols-outlined l">
+                    <span class="material-symbols-outlined l">
                     account_circle
                     </span>
                     </span>
@@ -54,59 +54,59 @@ const Sidebar = ({setTheme,theme,menu}) => {
                 <hr className='sideline' style={theme?{ border: `0.5px solid ${darkTheme.lines}`} :{ border: `0.5px solid ${lightTheme.lines}`}} />
         
                 <li>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined l">
                     video_library
-                    </span>Library
+                    </span><span className='pp'>Library</span>
                 </li>
                 <li>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined l">
                     history
-                    </span>History
+                    </span><span className='pp'>History</span>
                 </li>
 
                 <hr className='sideline' style={theme?{ border: `0.5px solid ${darkTheme.lines}`} :{ border: `0.5px solid ${lightTheme.lines}`}} />
                 <li>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined l">
                     library_music
-                    </span>Music
+                    </span><span className='pp'>Music</span>
                 </li>
                 
                 <li>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined l">
                  sports_esports
-                    </span>Gaming
+                    </span><span className='pp'>Gaming</span>
                 </li>
                 <li>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined l">
                    news
-                    </span>News
+                    </span><span className='pp'>News</span>
                 </li>
                 <li>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined l">
                     smart_display
-                    </span>Live
+                    </span><span className='pp'>Live</span>
                 </li>
                 <li>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined l">
                    settings
-                    </span>Settings
+                    </span><span className='pp'>Settings</span>
                 </li>
 
                 <hr className='sideline' style={theme?{ border: `0.5px solid ${darkTheme.lines}`} :{ border: `0.5px solid ${lightTheme.lines}`}} />
                 <li>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined l">
                    report
-                    </span>Report
+                    </span><span className='pp'>Report</span>
                 </li>
                 <li>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined l">
                    help
-                    </span>Help
+                    </span><span className='pp'>Help</span>
                 </li>
                 <li onClick={changeTheme} className='theme'>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined l">
                    dark_mode
-                    </span>{theme?'Light':'Dark'} Mode
+                    </span><span className='pp'>{theme?'Light':'Dark'} Mode</span>
                 </li>
                 
             </ul>
