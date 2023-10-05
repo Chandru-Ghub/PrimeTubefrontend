@@ -76,20 +76,7 @@
     }
 }
 
-.scrollbar{
-    /* width: 220px; */
-    /* background-color: red; */
-    height:92vh;
-    overflow-y: scroll;
-    /* background-color: green; */
-    /* position: fixed; */
-    position: sticky;
-    top: 60px;
-    width: 100%;
-    /* z-index: -1; */
 
-    
-}
 .theme{
     /* background: red; */
 }
