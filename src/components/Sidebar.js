@@ -19,17 +19,17 @@ const Sidebar = ({setTheme,theme,menu}) => {
                 <li onClick={()=>navigate('/')}>
                     <span class="material-symbols-outlined">
                         home
-                    </span><p>Home</p>
+                    </span>Home
                 </li>
                 <li onClick={()=>navigate('/trends')}>
                     <span class="material-symbols-outlined">
                     explore
-                    </span><p>explore</p>
+                    </span>explore
                 </li>
                 <li onClick={()=>navigate('/subscription')}>
                     <span class="material-symbols-outlined">
                     subscriptions
-                    </span><p>subscriptions</p>
+                    </span>subscriptions
                 </li>
         
                 <>
@@ -56,57 +56,57 @@ const Sidebar = ({setTheme,theme,menu}) => {
                 <li>
                     <span class="material-symbols-outlined">
                     video_library
-                    </span><p>Library</p>
+                    </span>Library
                 </li>
                 <li>
                     <span class="material-symbols-outlined">
                     history
-                    </span><p>History</p>
+                    </span>History
                 </li>
 
                 <hr className='sideline' style={theme?{ border: `0.5px solid ${darkTheme.lines}`} :{ border: `0.5px solid ${lightTheme.lines}`}} />
                 <li>
                     <span class="material-symbols-outlined">
                     library_music
-                    </span><p>Music</p>
+                    </span>Music
                 </li>
                 
                 <li>
                     <span class="material-symbols-outlined">
                  sports_esports
-                    </span><p>Gaming</p>
+                    </span>Gaming
                 </li>
                 <li>
                     <span class="material-symbols-outlined">
                    news
-                    </span><p>News</p>
+                    </span>News
                 </li>
                 <li>
                     <span class="material-symbols-outlined">
                     smart_display
-                    </span><p>Live</p>
+                    </span>Live
                 </li>
                 <li>
                     <span class="material-symbols-outlined">
                    settings
-                    </span><p>Settings</p>
+                    </span>Settings
                 </li>
 
                 <hr className='sideline' style={theme?{ border: `0.5px solid ${darkTheme.lines}`} :{ border: `0.5px solid ${lightTheme.lines}`}} />
                 <li>
                     <span class="material-symbols-outlined">
                    report
-                    </span><p>Report</p>
+                    </span>Report
                 </li>
                 <li>
                     <span class="material-symbols-outlined">
                    help
-                    </span><p>Help</p>
+                    </span>Help
                 </li>
                 <li onClick={changeTheme} className='theme'>
                     <span class="material-symbols-outlined">
                    dark_mode
-                    </span><p>{theme?'Light':'Dark'} Mode</p>
+                    </span>{theme?'Light':'Dark'} Mode
                 </li>
                 
             </ul>
