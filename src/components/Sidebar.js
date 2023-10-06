@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../styles/Sidebar.css'
 import { darkTheme,lightTheme } from '../theme/Theme'
 import { useNavigate } from 'react-router-dom'

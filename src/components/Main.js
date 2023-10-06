@@ -4,9 +4,9 @@ import {Link } from 'react-router-dom';
 import { darkTheme,lightTheme } from '../theme/Theme'
 // import axios from 'axios'
 // import {format} from 'timeago.js'
-const Main = ({setTheme,theme,id,type}) => {
+const Main = ({theme,id}) => {
 
-    const [card,setCard] = useState([
+    const [card] = useState([
         {id:1},{id:2},{id:3}, {id:1},{id:2},{id:3}, {id:1},{id:2},{id:3}, {id:1},{id:2},{id:3},
         {id:1},{id:2},{id:3}, {id:1},{id:2},{id:3}, {id:1},{id:2},{id:3}, {id:1},{id:2},{id:3},
     ])
