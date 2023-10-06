@@ -8,13 +8,14 @@ const Login = ({theme}) => {
     const[name,setName] = useState('')
     const[email,setEmail] = useState('')
     const[password,setPassword] = useState('')
-    const navigate = useNavigate()
+    // const navigate = useNavigate()
     function handleLogin(e){
         e.preventDefault()
 
     }
 
     function handleRegister(e){
+        console.log(name,email,password);
         e.preventDefault()
 
     }
