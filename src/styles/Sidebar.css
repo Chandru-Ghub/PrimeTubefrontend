@@ -30,7 +30,7 @@
         display: flex;
         column-gap: 10px;
         flex-direction: column;
-        justify-content: start;
+        justify-content: start !important;
         >li{
             /* background-color: blue; */
             text-align: start;
