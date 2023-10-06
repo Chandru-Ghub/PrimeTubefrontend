@@ -36,7 +36,7 @@
 
 .options{
     /* background-color: blue; */
-    display: flex;
+    display: flex !important;
     justify-content: space-between;
     margin-bottom: 20px;
     >.likesandOthers{

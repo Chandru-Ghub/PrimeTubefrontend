@@ -1,6 +1,6 @@
 .sidebar{
     /* background-color: rgb(84, 40, 40); */
-    display: flex;
+    display: flex !important;
     flex: 1;
     /* width: 180px; */
     /* height: 92vh; */
@@ -12,7 +12,7 @@
     /* background-color: red; */
     display: flex;
     row-gap: 20px;
-    justify-content: start;
+    justify-content: flex-start;
     padding-left: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -25,12 +25,11 @@
 
 
     >.topmenu{
-        /* background-color: green; */
         width: 100%;
         display: flex;
         column-gap: 10px;
         flex-direction: column;
-        justify-content: start !important;
+        justify-content: flex-start !important;
         >li{
             /* background-color: blue; */
             text-align: start;

@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import '../styles/Main.css'
 import {Link } from 'react-router-dom';
 import { darkTheme,lightTheme } from '../theme/Theme'
-import axios from 'axios'
-import {format} from 'timeago.js'
+// import axios from 'axios'
+// import {format} from 'timeago.js'
 const Main = ({setTheme,theme,id,type}) => {
 
     const [card,setCard] = useState([
@@ -45,7 +45,8 @@ const Main = ({setTheme,theme,id,type}) => {
                             </p>
                             <div className="viewanddate" style={{fontSize:'10px'}}>
                             <p>0 views</p>
-                            <p>{format('2023-10-03T11:17:46.157+00:00')}</p>
+                            {/* <p>{format('2023-10-03T11:17:46.157+00:00')}</p> */}
+                            <p>2 hours ago</p>
                             </div>
                         </div>
                     </div>
